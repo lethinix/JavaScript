@@ -228,21 +228,6 @@
 
 
 // Homework
-// randomNumber = Math.random() * 6;
-// randomNumber = Number.parseInt(randomNumber) + 1;
-// console.log(randomNumber);
-
-// rollNum = 1
-
-// for (randomNumber ; randomNumber < 3; ) {
-//   console.log(randomNumber)
-//   randomNumber = Math.random() * 6;
-//   randomNumber = Number.parseInt(randomNumber) + 1;
-//   rollNum++ ; 
-  
-// }
-// console.log(randomNumber);
-// console.log("your dice was rolled " + rollNum + " times!")
 
 const rollDice = function(dice_sides, roll_num) {
   random_number = Math.random() * dice_sides;
